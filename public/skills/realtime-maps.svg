@@ -1,0 +1,32 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#05070A"/>
+  <radialGradient id="mapGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(302 218) rotate(90) scale(282)">
+    <stop stop-color="#214B65" stop-opacity="0.8"/>
+    <stop offset="1" stop-color="#05070A"/>
+  </radialGradient>
+  <rect width="512" height="512" fill="url(#mapGlow)"/>
+  <g opacity="0.34" stroke="#89AACC" stroke-width="2">
+    <path d="M35 162C98 146 144 165 188 141C248 108 295 87 371 118C419 137 446 129 489 112"/>
+    <path d="M20 268C83 243 137 274 190 246C246 216 304 228 358 203C414 176 445 188 492 164"/>
+    <path d="M39 389C98 356 155 379 214 344C271 310 319 338 370 305C417 275 457 282 498 255"/>
+    <path d="M118 40C135 106 119 169 140 226C165 295 145 359 177 472"/>
+    <path d="M272 25C255 89 282 149 260 207C237 267 265 326 245 488"/>
+    <path d="M405 36C383 102 406 170 390 238C374 309 404 365 378 491"/>
+  </g>
+  <g filter="url(#glow)">
+    <path d="M275 128C235 128 203 160 203 200C203 254 275 338 275 338C275 338 347 254 347 200C347 160 315 128 275 128Z" fill="#0B1824" stroke="#5DC7D8" stroke-width="4"/>
+    <circle cx="275" cy="200" r="23" fill="#89AACC"/>
+    <circle cx="132" cy="314" r="12" fill="#5DC7D8"/>
+    <circle cx="410" cy="275" r="10" fill="#D4A27F"/>
+    <path d="M132 314C179 295 218 282 275 338C329 291 367 278 410 275" stroke="#5DC7D8" stroke-width="3" stroke-dasharray="8 10"/>
+  </g>
+  <defs>
+    <filter id="glow" x="96" y="92" width="350" height="282" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>

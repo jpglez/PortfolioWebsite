@@ -1,0 +1,31 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#05070A"/>
+  <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#07111E"/>
+    <stop offset="0.5" stop-color="#09263B"/>
+    <stop offset="1" stop-color="#05070A"/>
+  </linearGradient>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <g opacity="0.22">
+    <path d="M0 96H512M0 192H512M0 288H512M0 384H512M96 0V512M192 0V512M288 0V512M384 0V512" stroke="#89AACC"/>
+  </g>
+  <g filter="url(#glow)">
+    <rect x="94" y="122" width="128" height="76" rx="12" fill="#0B1824" stroke="#5DC7D8" stroke-width="3"/>
+    <rect x="290" y="122" width="128" height="76" rx="12" fill="#0B1824" stroke="#89AACC" stroke-width="3"/>
+    <rect x="192" y="314" width="128" height="76" rx="12" fill="#0B1824" stroke="#5DC7D8" stroke-width="3"/>
+    <path d="M158 198V256H256V314" stroke="#4E85BF" stroke-width="4"/>
+    <path d="M354 198V256H256" stroke="#4E85BF" stroke-width="4"/>
+    <ellipse cx="256" cy="256" rx="58" ry="20" fill="#112A3D" stroke="#89AACC" stroke-width="3"/>
+    <path d="M198 256V292C198 303 224 312 256 312C288 312 314 303 314 292V256" stroke="#89AACC" stroke-width="3"/>
+    <path d="M198 274C198 285 224 294 256 294C288 294 314 285 314 274" stroke="#5DC7D8" stroke-width="2"/>
+  </g>
+  <defs>
+    <filter id="glow" x="58" y="86" width="396" height="340" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>

@@ -1,0 +1,37 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#05070A"/>
+  <radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 256) rotate(90) scale(260)">
+    <stop stop-color="#4E85BF" stop-opacity="0.55"/>
+    <stop offset="0.48" stop-color="#10243A" stop-opacity="0.6"/>
+    <stop offset="1" stop-color="#05070A" stop-opacity="1"/>
+  </radialGradient>
+  <rect width="512" height="512" fill="url(#g1)"/>
+  <g opacity="0.75">
+    <path d="M106 284L181 205L258 256L337 164L420 230" stroke="#89AACC" stroke-width="3"/>
+    <path d="M116 360L205 301L287 339L392 271" stroke="#4E85BF" stroke-width="2"/>
+    <path d="M92 176L181 205L228 119L337 164" stroke="#5DC7D8" stroke-width="2"/>
+  </g>
+  <g filter="url(#glow)">
+    <circle cx="106" cy="284" r="10" fill="#89AACC"/>
+    <circle cx="181" cy="205" r="14" fill="#5DC7D8"/>
+    <circle cx="258" cy="256" r="18" fill="#D4A27F"/>
+    <circle cx="337" cy="164" r="13" fill="#89AACC"/>
+    <circle cx="420" cy="230" r="10" fill="#5DC7D8"/>
+    <circle cx="205" cy="301" r="9" fill="#89AACC"/>
+    <circle cx="287" cy="339" r="12" fill="#5DC7D8"/>
+    <circle cx="392" cy="271" r="8" fill="#D4A27F"/>
+    <circle cx="228" cy="119" r="8" fill="#89AACC"/>
+  </g>
+  <g opacity="0.18">
+    <path d="M0 80H512M0 160H512M0 240H512M0 320H512M0 400H512M80 0V512M160 0V512M240 0V512M320 0V512M400 0V512" stroke="#FFFFFF"/>
+  </g>
+  <defs>
+    <filter id="glow" x="60" y="73" width="406" height="315" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>
