@@ -1,73 +1,120 @@
-# React + TypeScript + Vite
+# Juan Pablo Gonzalez — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio for Juan Pablo Gonzalez, a software engineering student and full-stack developer based in Guadalajara, Mexico. The site presents selected projects, technical skills, certifications, a tech stack showcase, and contact links in a dark, animated, bilingual experience.
 
-Currently, two official plugins are available:
+## Español
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Este portafolio muestra mi trabajo como desarrollador full-stack, con enfoque en aplicaciones web escalables, productos SaaS y soluciones impulsadas por inteligencia artificial.
 
-## React Compiler
+### Caracteristicas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Soporte bilingue: español e ingles.
+- Selector de idioma con persistencia en `localStorage`.
+- Hero animado con video de fondo.
+- Seccion de proyectos destacados.
+- Seccion de skills y certificaciones.
+- Stack tecnologico con iconos, animaciones y modal interactivo.
+- Seccion de estadisticas y acceso futuro al CV.
+- Footer con contacto directo por Gmail y redes sociales.
+- Animaciones con GSAP y Framer Motion.
+- Diseño responsive para desktop y mobile.
 
-## Expanding the ESLint configuration
+### Proyectos destacados
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- LiveCity GDL
+- Estate AI
+- PrimeNest Realty
+- Little Lemon Restaurant
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Tecnologias principales
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- GSAP
+- HLS.js
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Tambien se muestran tecnologias como JavaScript, HTML5, CSS3, Next.js, Node.js, Python, SQL, Supabase, Firebase, Google Cloud, Vercel, GitHub, Git, Docker, Claude API, Twilio, Google Calendar API, DeepL API, Google Maps API, Leaflet y Figma.
+
+## English
+
+This portfolio showcases my work as a full-stack developer, focused on scalable web applications, SaaS products, and AI-powered solutions.
+
+### Features
+
+- Bilingual support: Spanish and English.
+- Language toggle with `localStorage` persistence.
+- Animated hero section with background video.
+- Selected projects section.
+- Skills and certifications section.
+- Tech stack showcase with icons, animations, and interactive modal.
+- Stats section and future resume/CV button.
+- Footer with Gmail contact flow and social links.
+- GSAP and Framer Motion animations.
+- Responsive design for desktop and mobile.
+
+### Featured Projects
+
+- LiveCity GDL
+- Estate AI
+- PrimeNest Realty
+- Little Lemon Restaurant
+
+### Main Technologies
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- GSAP
+- HLS.js
+
+The portfolio also highlights JavaScript, HTML5, CSS3, Next.js, Node.js, Python, SQL, Supabase, Firebase, Google Cloud, Vercel, GitHub, Git, Docker, Claude API, Twilio, Google Calendar API, DeepL API, Google Maps API, Leaflet, and Figma.
+
+## Getting Started
+
+Install dependencies:
+
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Run the development server:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run dev
 ```
+
+Run on the local network for mobile testing:
+
+```bash
+npm run dev -- --host 0.0.0.0
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+Run linting:
+
+```bash
+npm run lint
+```
+
+## Contact
+
+- GitHub: https://github.com/jpglez
+- LinkedIn: https://www.linkedin.com/in/juan-pablo-gonzalez-sanmiguel-50b26a340
+- Dribbble: https://dribbble.com/juan-pablo-gonzalez-sanmiguel
+- X / Twitter: https://x.com/jp_glez_smg
