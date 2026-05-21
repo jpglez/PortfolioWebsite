@@ -23,7 +23,7 @@ export const translations = {
       words: ["Diseñar", "Crear", "Inspirar"],
     },
     hero: {
-      collection: "COLECCIÓN '26",
+      collection: "INGENIERO EN COMPUTACIÓN",
       roles: [
         "Ingeniero de Software",
         "Desarrollador Full Stack",
@@ -50,13 +50,11 @@ export const translations = {
       inDevelopmentShort: "En Dev",
       projectDescriptions: {
         livecitygdl:
-          "Plataforma local para descubrir experiencias, lugares y eventos en Guadalajara.",
+          "Descubre experiencias, lugares, restaurantes, bares y eventos en Guadalajara con mapa interactivo y planes a tu medida.",
         estateai:
-          "Producto SaaS impulsado por IA para flujos inmobiliarios inteligentes.",
-        primenest:
-          "Sitio inmobiliario moderno enfocado en propiedades premium y navegación clara.",
-        littlelemon:
-          "Experiencia web para restaurante con enfoque en presentación, reservas y marca.",
+          "Plataforma inmobiliaria con IA para automatizar atención, mostrar propiedades, dar seguimiento y facilitar decisiones.",
+        vexa:
+          "Agencia digital que crea sitios web modernos y funcionales para negocios locales, mejorando su presencia online.",
       },
     },
     journal: {
@@ -74,16 +72,16 @@ export const translations = {
           category: "Habilidad",
         },
         {
-          title: "Arquitectura Backend y Bases de Datos",
+          title: "Frontend y Control de Versiones",
           description:
-            "Especialización en arquitectura multi-tenant, control de acceso basado en roles, diseño de bases de datos escalables con Supabase y Realtime. Sincronización de datos en tiempo real.",
+            "Experiencia construyendo interfaces responsivas con React, Next.js y Tailwind CSS, cuidando componentes reutilizables, rendimiento, accesibilidad y flujos de trabajo con Git y GitHub.",
           category: "Certificación",
         },
         {
           title: "Aplicaciones en Tiempo Real y Mapas",
           description:
             "Desarrollo de aplicaciones en tiempo real con Leaflet, WebSockets y Supabase Realtime. Integración de mapas interactivos, geolocalización y actualizaciones en vivo.",
-          category: "Certificación",
+          category: "Habilidad",
         },
         {
           title: "Integraciones y Automatización",
@@ -167,7 +165,7 @@ export const translations = {
       words: ["Design", "Create", "Inspire"],
     },
     hero: {
-      collection: "COLLECTION '26",
+      collection: "COMPUTER ENGINEER",
       roles: ["Software Engineer", "Full Stack Developer", "AI Enthusiast", "Builder"],
       intro: "A",
       based: "based in Guadalajara, Mexico.",
@@ -188,12 +186,11 @@ export const translations = {
       inDevelopmentShort: "In Dev",
       projectDescriptions: {
         livecitygdl:
-          "A local platform for discovering experiences, places, and events in Guadalajara.",
-        estateai: "An AI-powered SaaS product for smarter real estate workflows.",
-        primenest:
-          "A modern real estate site focused on premium properties and clear navigation.",
-        littlelemon:
-          "A restaurant web experience focused on presentation, reservations, and brand.",
+          "Descubre experiencias, lugares, restaurantes, bares y eventos en Guadalajara con mapa interactivo y planes a tu medida.",
+        estateai:
+          "Plataforma inmobiliaria con IA para automatizar atención, mostrar propiedades, dar seguimiento y facilitar decisiones.",
+        vexa:
+          "Agencia digital que crea sitios web modernos y funcionales para negocios locales, mejorando su presencia online.",
       },
     },
     journal: {
@@ -211,16 +208,16 @@ export const translations = {
           category: "Skill",
         },
         {
-          title: "Backend & Database Architecture",
+          title: "Frontend & Version Control",
           description:
-            "Specialization in multi-tenant architecture, role-based access control, scalable database design with Supabase and Realtime. Real-time data synchronization.",
+            "Experience building responsive interfaces with React, Next.js, and Tailwind CSS, focusing on reusable components, performance, accessibility, and Git/GitHub workflows.",
           category: "Certification",
         },
         {
           title: "Real-Time Applications & Maps",
           description:
             "Development of real-time applications with Leaflet, WebSockets, and Supabase Realtime. Integration of interactive maps, geolocation, and live updates.",
-          category: "Certification",
+          category: "Skill",
         },
         {
           title: "Integrations & Automation",

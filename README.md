@@ -23,8 +23,7 @@ Este portafolio muestra mi trabajo como desarrollador full-stack, con enfoque en
 
 - LiveCity GDL
 - Estate AI
-- PrimeNest Realty
-- Little Lemon Restaurant
+- Vexa Studio
 
 ### Tecnologias principales
 
@@ -59,8 +58,7 @@ This portfolio showcases my work as a full-stack developer, focused on scalable 
 
 - LiveCity GDL
 - Estate AI
-- PrimeNest Realty
-- Little Lemon Restaurant
+- Vexa Studio
 
 ### Main Technologies
 

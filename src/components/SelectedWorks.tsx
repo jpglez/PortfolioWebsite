@@ -6,7 +6,6 @@ const PROJECTS = [
     slug: "livecitygdl",
     title: "LiveCity GDL",
     image: "/projects/livecitygdl.png",
-    span: "md:col-span-7",
     url: "https://livecitygdl.com/",
     inDevelopment: false,
   },
@@ -14,24 +13,14 @@ const PROJECTS = [
     slug: "estateai",
     title: "Estate AI",
     image: "/projects/estateai.png",
-    span: "md:col-span-5",
-    url: null,
-    inDevelopment: true,
-  },
-  {
-    slug: "primenest",
-    title: "PrimeNest Realty",
-    image: "/projects/primenest.png",
-    span: "md:col-span-5",
-    url: "https://jpglez.github.io/PrimeNest-Realty/",
+    url: "https://estateai.digital/",
     inDevelopment: false,
   },
   {
-    slug: "littlelemon",
-    title: "Little Lemon Restaurant",
-    image: "/projects/littlelemon.png",
-    span: "md:col-span-7",
-    url: "https://jpglez.github.io/LITTLE-LEMON/",
+    slug: "vexa",
+    title: "Vexa Studio",
+    image: "/projects/Vexa.png",
+    url: "https://vexastudio.digital/",
     inDevelopment: false,
   },
 ] as const;
@@ -92,8 +81,6 @@ function SectionHeader() {
 interface ProjectCardProps {
   project: (typeof PROJECTS)[number];
   index: number;
-  isFirst: boolean;
-  isLast: boolean;
 }
 
 function CardInner({ project }: { project: (typeof PROJECTS)[number] }) {
@@ -156,8 +143,8 @@ function CardInner({ project }: { project: (typeof PROJECTS)[number] }) {
       </div>
 
       {/* Bottom title (always visible) */}
-      <div className="absolute bottom-0 left-0 right-0 p-5 bg-gradient-to-t from-black/60 to-transparent">
-        <div className="flex items-center gap-2">
+      <div className="absolute bottom-0 left-0 right-0 p-5 bg-gradient-to-t from-black/90 via-black/55 to-transparent">
+        <div className="flex items-center gap-2 mb-2">
           <p className="text-white text-sm font-medium">{project.title}</p>
           {project.inDevelopment && (
             <span className="text-[10px] uppercase tracking-widest text-white/60 border border-white/20 rounded-full px-2 py-0.5">
@@ -165,17 +152,15 @@ function CardInner({ project }: { project: (typeof PROJECTS)[number] }) {
             </span>
           )}
         </div>
+        <p className="text-white/80 text-[13px] leading-relaxed">{description}</p>
       </div>
     </>
   );
 }
 
-function ProjectCard({ project, index, isFirst, isLast }: ProjectCardProps) {
-  const aspectClass =
-    isFirst || isLast ? "aspect-[4/3]" : "aspect-[4/3] md:h-full";
-
+function ProjectCard({ project, index }: ProjectCardProps) {
   const sharedMotionProps = {
-    className: `group relative overflow-hidden rounded-3xl bg-surface border border-stroke ${project.span} ${aspectClass} ${project.inDevelopment ? "cursor-default" : "cursor-pointer"}`,
+    className: `group relative overflow-hidden rounded-3xl bg-surface border border-stroke aspect-[4/3] md:aspect-[5/4] ${project.inDevelopment ? "cursor-default" : "cursor-pointer"}`,
     initial: { opacity: 0, y: 30 },
     whileInView: { opacity: 1, y: 0 },
     transition: { duration: 0.7, ease: [0.25, 0.1, 0.25, 1] as [number, number, number, number], delay: index * 0.1 },
@@ -208,14 +193,12 @@ export default function SelectedWorks() {
       <div className="max-w-[1200px] mx-auto px-6 md:px-10 lg:px-16">
         <SectionHeader />
 
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-5 md:gap-6 md:grid-rows-2">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-6">
           {PROJECTS.map((project, i) => (
             <ProjectCard
               key={project.slug}
               project={project}
               index={i}
-              isFirst={i === 0}
-              isLast={i === PROJECTS.length - 1}
             />
           ))}
         </div>

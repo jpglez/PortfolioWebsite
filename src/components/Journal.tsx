@@ -4,7 +4,7 @@ import { useLanguage } from "../i18n";
 const ENTRIES = [
   {
     image: "/skills/ai-claude.svg",
-    href: "https://livecitygdl.com/",
+    href: "https://estateai.digital/",
   },
   {
     image: "/skills/backend-database.svg",
@@ -12,7 +12,7 @@ const ENTRIES = [
   },
   {
     image: "/skills/realtime-maps.svg",
-    href: "https://www.coursera.org/account/accomplishments/verify/G5K0WAJQ8MQ5",
+    href: "https://livecitygdl.com/",
   },
   {
     image: "/skills/integrations-automation.svg",
