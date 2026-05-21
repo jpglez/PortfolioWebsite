@@ -29,19 +29,14 @@ export default function Stats() {
           </h2>
           <div className="max-w-md">
             <p className="text-sm text-muted">{t.stats.subtext}</p>
-            <form
-              action="/cv/cv.pdf"
+            <a
+              href="/CV/Resume%20%282%29.pdf"
               target="_blank"
-              method="get"
-              className="mt-4 inline-flex"
+              rel="noopener noreferrer"
+              className="mt-4 inline-flex items-center justify-center rounded-full border border-text-primary/45 bg-text-primary px-5 py-2 text-sm font-semibold text-bg shadow-sm shadow-black/20 transition-all duration-200 hover:scale-[1.02] hover:border-text-primary hover:bg-white focus:outline-none focus:ring-2 focus:ring-text-primary/40"
             >
-              <button
-                type="submit"
-                className="inline-flex items-center justify-center rounded-full border border-text-primary/45 bg-text-primary px-5 py-2 text-sm font-semibold text-bg shadow-sm shadow-black/20 transition-all duration-200 hover:scale-[1.02] hover:border-text-primary hover:bg-white focus:outline-none focus:ring-2 focus:ring-text-primary/40"
-              >
-                {t.nav.viewCV}
-              </button>
-            </form>
+              {t.nav.viewCV}
+            </a>
           </div>
         </motion.div>
 
