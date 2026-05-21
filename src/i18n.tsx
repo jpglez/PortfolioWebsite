@@ -8,7 +8,7 @@ const LANGUAGE_STORAGE_KEY = "portfolio-language";
 export const translations = {
   es: {
     meta: {
-      title: "Juan Pablo González — Portafolio",
+      title: "JP | Software Engineer",
     },
     nav: {
       home: "Inicio",
@@ -150,7 +150,7 @@ export const translations = {
   },
   en: {
     meta: {
-      title: "Juan Pablo González — Portfolio",
+      title: "JP | Software Engineer",
     },
     nav: {
       home: "Home",
