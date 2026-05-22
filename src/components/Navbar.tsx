@@ -93,7 +93,7 @@ export default function Navbar() {
         <button
           onClick={toggleLanguage}
           className="text-[11px] sm:text-sm rounded-full px-2 sm:px-3 py-1.5 sm:py-2 text-muted hover:text-text-primary hover:bg-stroke/50 transition-colors duration-200"
-          aria-label="Toggle language"
+          aria-label={t.nav.toggleLanguage}
         >
           {language.toUpperCase()}
         </button>

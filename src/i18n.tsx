@@ -13,10 +13,11 @@ export const translations = {
     nav: {
       home: "Inicio",
       work: "Trabajo",
-      stack: "Stack",
+      stack: "Tecnologías",
       resume: "CV",
       sayHi: "Conectar",
       viewCV: "Ver CV",
+      toggleLanguage: "Cambiar idioma",
     },
     loading: {
       label: "Portafolio",
@@ -26,7 +27,7 @@ export const translations = {
       collection: "INGENIERO EN COMPUTACIÓN",
       roles: [
         "Ingeniero de Software",
-        "Desarrollador Full Stack",
+        "Desarrollador Web Integral",
         "Entusiasta de IA",
         "Constructor",
       ],
@@ -54,25 +55,25 @@ export const translations = {
         estateai:
           "Plataforma inmobiliaria con IA para automatizar atención, mostrar propiedades, dar seguimiento y facilitar decisiones.",
         vexa:
-          "Agencia digital que crea sitios web modernos y funcionales para negocios locales, mejorando su presencia online.",
+          "Agencia digital que crea sitios web modernos y funcionales para negocios locales, mejorando su presencia en línea.",
       },
     },
     journal: {
-      eyebrow: "Skills y Certificaciones",
-      headingPrefix: "Skills y",
+      eyebrow: "Habilidades y Certificaciones",
+      headingPrefix: "Habilidades y",
       headingEmphasis: "Certificaciones",
       subtext:
         "Una selección de mis habilidades técnicas, certificaciones y áreas de especialización que he desarrollado a través de proyectos y aprendizaje continuo.",
       viewAll: "Ver más",
       entries: [
         {
-          title: "AI y Claude API",
+          title: "IA y Claude API",
           description:
             "Experiencia integrando Claude API, Anthropic SDK, y características impulsadas por LLM en aplicaciones de producción. Desarrollo de chatbots, análisis de texto y soluciones de IA.",
           category: "Habilidad",
         },
         {
-          title: "Frontend y Control de Versiones",
+          title: "Interfaz y Control de Versiones",
           description:
             "Experiencia construyendo interfaces responsivas con React, Next.js y Tailwind CSS, cuidando componentes reutilizables, rendimiento, accesibilidad y flujos de trabajo con Git y GitHub.",
           category: "Certificación",
@@ -92,18 +93,18 @@ export const translations = {
       ],
     },
     explorations: {
-      eyebrow: "Stack",
-      headingPrefix: "Mi Stack",
-      headingEmphasis: "Tecnológico",
+      eyebrow: "Tecnologías",
+      headingPrefix: "Mis",
+      headingEmphasis: "Tecnologías",
       subtext:
         "Las tecnologías, lenguajes y herramientas que utilizo para construir aplicaciones modernas, escalables y eficientes.",
       view: "Ver",
       close: "Cerrar",
       categories: {
-        frontend: "Frontend",
-        backend: "Backend y API",
+        frontend: "Interfaz",
+        backend: "Servidor y API",
         databases: "Bases de Datos y Servicios",
-        deployment: "Deployment y DevOps",
+        deployment: "Despliegue y DevOps",
         languages: "Lenguajes",
         apis: "APIs e Integraciones",
         design: "Diseño y Animación",
@@ -114,13 +115,13 @@ export const translations = {
       headingPrefix: "Causando un",
       headingEmphasis: "impacto",
       subtext:
-        "Desde victorias en hackathons hasta productos SaaS en producción: creando soluciones reales, aprendiendo en cada paso y empujando los límites de lo posible con tecnología web moderna e IA.",
+        "Desde victorias en maratones de programación hasta productos SaaS en producción: creando soluciones reales, aprendiendo en cada paso y empujando los límites de lo posible con tecnología web moderna e IA.",
       items: [
         {
           number: "15+",
           label: "Proyectos Completados",
           sublabel:
-            "Desde el concepto hasta el lanzamiento, en aplicaciones frontend, backend y full-stack.",
+            "Desde el concepto hasta el lanzamiento, en aplicaciones de interfaz, servidor e integrales.",
         },
         {
           number: "3",
@@ -159,6 +160,7 @@ export const translations = {
       resume: "Resume",
       sayHi: "Say hi",
       viewCV: "See Resume",
+      toggleLanguage: "Toggle language",
     },
     loading: {
       label: "Portfolio",
@@ -186,11 +188,11 @@ export const translations = {
       inDevelopmentShort: "In Dev",
       projectDescriptions: {
         livecitygdl:
-          "Descubre experiencias, lugares, restaurantes, bares y eventos en Guadalajara con mapa interactivo y planes a tu medida.",
+          "Discover experiences, places, restaurants, bars, and events in Guadalajara with an interactive map and plans tailored to you.",
         estateai:
-          "Plataforma inmobiliaria con IA para automatizar atención, mostrar propiedades, dar seguimiento y facilitar decisiones.",
+          "AI-powered real estate platform that automates support, showcases properties, tracks leads, and helps people make better decisions.",
         vexa:
-          "Agencia digital que crea sitios web modernos y funcionales para negocios locales, mejorando su presencia online.",
+          "Digital agency creating modern, functional websites for local businesses and helping them improve their online presence.",
       },
     },
     journal: {
